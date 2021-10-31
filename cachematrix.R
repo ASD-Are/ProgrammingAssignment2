@@ -37,8 +37,4 @@ cacheSolve <- function(x, ...){
 }
 
 
-myinv <- makeMatrix(matrix(6:9, nrow = 2, ncol = 2))
-myinv$get()
-myinv$set()
 
-cacheinv(myinv)
